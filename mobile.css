@@ -1,0 +1,74 @@
+@media (max-width: 500px) {
+  /* navbar */
+  .nav-bar {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    height: auto;
+  }
+  /* abt */
+  .icons,
+  .infom {
+    padding-left: 0px;
+  }
+  .about {
+    grid-template-columns: 1fr;
+  }
+  .basename2 {
+    display: none;
+  }
+  /* in4 */
+  .job-info {
+    grid-template-columns: 1fr;
+  }
+  .jiconabcd {
+    border-left: none;
+    border-right: none;
+
+    width: 350px;
+    border-color: darkgrey;
+  }
+  .job-info {
+    padding-left: 10%;
+  }
+  .sothich {
+    padding-left: 8%;
+  }
+  /* chungchigiaithuong */
+  .kaka,
+  .kakaka,
+  .cert2 {
+    display: grid;
+  }
+  .certificate {
+    grid-template-columns: 1fr;
+  }
+  .kaka,
+  .kakaka {
+    border-right: none;
+    border-bottom: 2px solid #d6c08d;
+  }
+  /* project */
+  .huhuhu {
+    height: 180px;
+    width: 295px;
+  }
+
+  .ko {
+    width: 300px;
+  }
+  .cvs {
+    grid-template-columns: 1fr;
+  }
+  .project {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
+/* footer */
+.footer .p {
+  display: none;
+}
+.footer .kkk .iconf {
+  font-size: 60px;
+}

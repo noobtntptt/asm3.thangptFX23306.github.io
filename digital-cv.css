@@ -1,0 +1,136 @@
+/* body container  & ALL inuse AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+p::first-letter {
+  text-transform: capitalize;
+}
+
+p {
+  font-size: 15px;
+}
+p {
+  padding-top: 10px;
+}
+
+.containerrrr {
+  display: grid;
+  grid-template-columns: 5fr 3fr 3fr;
+  grid-template-rows: 3fr 2fr;
+  margin: 30px 30px 30px 30px;
+
+  border: 10px solid blue;
+}
+/* .container  */
+.container {
+  display: grid;
+  /* gap: 20px; */
+  background-color: rgb(241, 250, 252);
+  border: 10px solid blue;
+}
+.container > *:last-child {
+  margin-bottom: 50px;
+}
+.title {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+  margin-right: 15px;
+  border-bottom: 1px solid #424242;
+  color: rgb(0, 26, 255);
+}
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+/* goals */
+
+.digi_child {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+}
+.goals_child {
+  border-bottom: 0.5px solid #bee2ff;
+  margin-bottom: 30px;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+/* team */
+.icon-user-2 {
+  height: 50px;
+  width: 60px;
+}
+
+/* timeline */
+.timeline {
+  grid-column: 3 / 4;
+  grid-row: 1 / 3;
+}
+.timeline_cỉcle {
+  height: 50px;
+  width: 50px;
+  background-color: rgb(156, 134, 255);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: x-large;
+  color: white;
+  border: 1px solid slateblue;
+}
+.time_child > *:last-child {
+  border-bottom: 0.5px dotted rgb(136, 173, 255);
+}
+.time_child {
+  margin-bottom: 30px;
+  margin-right: 15px;
+}
+/* scopes */
+.scopes {
+  display: grid;
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 1fr 1fr;
+}
+.scopes > *:first-child {
+  grid-column: 1 / span 2;
+}
+.scope_child {
+  padding-left: 18px;
+  padding-top: 10px;
+  padding-right: 40px;
+}
+.sco_child {
+  padding-bottom: 20px;
+}
+/* primary */
+/* .primary > *:first-child {
+  grid-column: 1 / span 2;
+} */
+.primary_child {
+  height: 50px;
+  width: 60px;
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+.pri_p {
+  max-height: 50px;
+  width: 200px;
+  margin-left: 15px;
+}
+.icon-question {
+  height: 50px;
+  width: 60px;
+  size: 20px;
+}
+/*  */

@@ -1,0 +1,65 @@
+@media (max-width: 768px) {
+  /* anh1 */
+  .anh1 {
+    position: inherit;
+    justify-items: center;
+  }
+  /* navbar */
+  .nav-bar {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    height: 100px;
+  }
+  /* abt */
+  .basename2,
+  .fsd {
+    font-size: 15px;
+    color: white;
+  }
+  /* in4 */
+  .job-info {
+    grid-template-columns: 1fr 1fr;
+    padding-left: 13%;
+  }
+
+  /* chungchigiaithuong */
+  .kaka,
+  .kakaka,
+  .cert2 {
+    display: grid;
+  }
+  .anh2 {
+    height: 105px;
+    width: 210px;
+    padding-left: 1rem;
+  }
+  /* project */
+  .huhuhu {
+    height: 120px;
+    width: 205px;
+  }
+
+  .ko {
+    width: 210px;
+  }
+  .cvs {
+    /* grid-template-columns: auto; */
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    height: auto;
+  }
+  .ko .cvs > *:first-child {
+    grid-row: 1 / span2;
+  }
+  .try {
+    padding-left: 5px;
+    padding-top: 5px;
+    justify-content: center;
+  }
+  .project {
+    justify-content: center;
+    gap: 10px;
+  }
+  .ko > *:last-child {
+    border-bottom: none;
+  }
+}

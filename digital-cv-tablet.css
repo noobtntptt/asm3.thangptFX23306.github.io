@@ -1,0 +1,72 @@
+@media (max-width: 768px) {
+  /* changing the oder Property */
+  div.team {
+    order: 3;
+  }
+  div.scopes {
+    order: 2;
+  }
+  div.primary {
+    order: 4;
+  }
+  div.timeline {
+    order: 5;
+  }
+  .containerrrr {
+    grid-template-columns: 1fr;
+    margin: 0px 0px 0px 0px;
+  }
+  .child {
+    grid-template-columns: 1fr;
+    margin-left: 15px;
+  }
+  .icon {
+    display: flex;
+    width: 100%;
+    /* justify-content: center; */
+  }
+  .digi_child {
+    margin-left: 20px;
+  }
+  /* container */
+  .container {
+    width: 100%;
+    max-width: 768px;
+  }
+  /* goals */
+  /* scopes */
+  .scopes {
+    grid-template-columns: 1fr;
+  }
+  .scopes > *:first-child {
+    grid-column: auto;
+  }
+  /*  team*/
+  /*primary  */
+  .primary {
+    grid-template-rows: 1fr 1.5fr 1.5fr;
+  }
+  .primary_child,
+  .pri_p {
+    width: 100%;
+    margin-left: 15px;
+  }
+
+  /*  timeline*/
+  .timeline {
+    grid-column: auto;
+    grid-row: auto;
+  }
+  .tl_ {
+    margin-bottom: 10px;
+  }
+  .time_child {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 15px;
+  }
+  .time_child > *:last-child {
+    padding-bottom: 10px;
+  }
+  /*  */
+}

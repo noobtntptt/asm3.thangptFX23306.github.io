@@ -1,0 +1,22 @@
+@media (max-width: 500px) {
+  /* all */
+  p {
+    font-size: 25px;
+  }
+  .icon {
+    font-size: 40px;
+  }
+  /*goals  */
+  /*  scope*/
+  /*  team*/
+  /*  primary*/
+  .primary {
+    grid-template-rows: 60px 1fr 1fr;
+  }
+  .primary_child {
+    max-width: 400px;
+    height: 100px;
+  }
+
+  /*  timeline*/
+}
