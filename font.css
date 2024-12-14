@@ -63,8 +63,8 @@
 @font-face {
 	font-family: 'fontello';
 	src: url('../fonts/fontello.eot');
-	url('../fonts/fontello.woff') format('woff'),
-		url('../fonts/fontello.ttf') format('truetype'),
+	url('../../fonts/fontello.woff') format('woff'),
+		url('../../fonts/fontello.ttf') format('truetype'),
 	src: url('../fonts/fontello.eot#iefix') format('embedded-opentype'),
 		
 		url('../fonts/fontello.svg#fontello') format('svg');
@@ -11010,8 +11010,8 @@
 @font-face {
 	font-family: 'et-line';
 	src: url('../fonts/et-line.eot');
-	url('../fonts/et-line.woff') format('woff'),
-		url('../fonts/et-line.ttf') format('truetype'),
+	url('../../fonts/et-line.woff') format('woff'),
+		url('../../fonts/et-line.ttf') format('truetype'),
 	src: url('../fonts/et-line.eot#iefix') format('embedded-opentype'),
 		
 		url('../fonts/et-line.svg#et-line') format('svg');
