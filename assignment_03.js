@@ -15,6 +15,8 @@ btnsubmit.addEventListener('click', function () {
   if (regexa.test(ace)) {
     result.classList.remove('hidden');
     btn_input_info.classList.add('hidden');
+  }else {
+    console.log('error, please type correctly the email');
   }
   //function finished, now i need the requiered input
 });
